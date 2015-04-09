@@ -1,41 +1,41 @@
         Prefix Verb   URI Pattern                    Controller#Action
-    line_items GET    /line_items(.:format)          line_items#index
-               POST   /line_items(.:format)          line_items#create
- new_line_item GET    /line_items/new(.:format)      line_items#new
-edit_line_item GET    /line_items/:id/edit(.:format) line_items#edit
-     line_item GET    /line_items/:id(.:format)      line_items#show
-               PATCH  /line_items/:id(.:format)      line_items#update
-               PUT    /line_items/:id(.:format)      line_items#update
-               DELETE /line_items/:id(.:format)      line_items#destroy
-        orders GET    /orders(.:format)              orders#index
-               POST   /orders(.:format)              orders#create
-     new_order GET    /orders/new(.:format)          orders#new
-    edit_order GET    /orders/:id/edit(.:format)     orders#edit
-         order GET    /orders/:id(.:format)          orders#show
-               PATCH  /orders/:id(.:format)          orders#update
-               PUT    /orders/:id(.:format)          orders#update
-               DELETE /orders/:id(.:format)          orders#destroy
-     customers GET    /customers(.:format)           customers#index
-               POST   /customers(.:format)           customers#create
-  new_customer GET    /customers/new(.:format)       customers#new
- edit_customer GET    /customers/:id/edit(.:format)  customers#edit
-      customer GET    /customers/:id(.:format)       customers#show
-               PATCH  /customers/:id(.:format)       customers#update
-               PUT    /customers/:id(.:format)       customers#update
-               DELETE /customers/:id(.:format)       customers#destroy
-     provinces GET    /provinces(.:format)           provinces#index
-               POST   /provinces(.:format)           provinces#create
-  new_province GET    /provinces/new(.:format)       provinces#new
- edit_province GET    /provinces/:id/edit(.:format)  provinces#edit
-      province GET    /provinces/:id(.:format)       provinces#show
-               PATCH  /provinces/:id(.:format)       provinces#update
-               PUT    /provinces/:id(.:format)       provinces#update
-               DELETE /provinces/:id(.:format)       provinces#destroy
-      products GET    /products(.:format)            products#index
-               POST   /products(.:format)            products#create
-   new_product GET    /products/new(.:format)        products#new
-  edit_product GET    /products/:id/edit(.:format)   products#edit
-       product GET    /products/:id(.:format)        products#show
-               PATCH  /products/:id(.:format)        products#update
-               PUT    /products/:id(.:format)        products#update
-               DELETE /products/:id(.:format)        products#destroy
+    line_items GET    /line_items                    line_items#index
+               POST   /line_items                    line_items#create
+ new_line_item GET    /line_items/new                line_items#new
+edit_line_item GET    /line_items/:id/edit           line_items#edit
+     line_item GET    /line_items/:id                line_items#show
+               PATCH  /line_items/:id                line_items#update
+               PUT    /line_items/:id                line_items#update
+               DELETE /line_items/:id                line_items#destroy
+        orders GET    /orders                        orders#index
+               POST   /orders                        orders#create
+     new_order GET    /orders/new                    orders#new
+    edit_order GET    /orders/:id/edit               orders#edit
+         order GET    /orders/:id                    orders#show
+               PATCH  /orders/:id                    orders#update
+               PUT    /orders/:id                    orders#update
+               DELETE /orders/:id                    orders#destroy
+     customers GET    /customers                     customers#index
+               POST   /customers                     customers#create
+  new_customer GET    /customers/new                 customers#new
+ edit_customer GET    /customers/:id/edit            customers#edit
+      customer GET    /customers/:id                 customers#show
+               PATCH  /customers/:id                 customers#update
+               PUT    /customers/:id                 customers#update
+               DELETE /customers/:id                 customers#destroy
+     provinces GET    /provinces                     provinces#index
+               POST   /provinces                     provinces#create
+  new_province GET    /provinces/new                 provinces#new
+ edit_province GET    /provinces/:id/edit            provinces#edit
+      province GET    /provinces/:id                 provinces#show
+               PATCH  /provinces/:id                 provinces#update
+               PUT    /provinces/:id                 provinces#update
+               DELETE /provinces/:id                 provinces#destroy
+      products GET    /products                      products#index
+               POST   /products                      products#create
+   new_product GET    /products/new                  products#new
+  edit_product GET    /products/:id/edit             products#edit
+       product GET    /products/:id                  products#show
+               PATCH  /products/:id                  products#update
+               PUT    /products/:id                  products#update
+               DELETE /products/:id                  products#destroy
