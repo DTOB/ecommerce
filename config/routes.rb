@@ -5,7 +5,14 @@ Rails.application.routes.draw do
   resources :customers
   resources :provinces
 
+# set up a route for a GET to /wally with a name of wally
+# get 'wally', to: 'products#index', as: 'wally'
+
+# root has a name of 'root'
   root to: 'products#welcome'
+
+  
+
 
   #get '/' => 'products#index'
 
