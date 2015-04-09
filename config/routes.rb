@@ -9,9 +9,8 @@ Rails.application.routes.draw do
 # get 'wally', to: 'products#index', as: 'wally'
 
 # root has a name of 'root'
-  root to: 'products#welcome'
+  root to: 'main#welcome'
 
-  
 
 
   #get '/' => 'products#index'

@@ -1,9 +1,6 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
-  
-  def welcome
-  end
-
+ 
   # GET /products
   def index
     @products = Product.all
@@ -11,6 +8,7 @@ class ProductsController < ApplicationController
 
   # GET /products/1
   def show
+    @product = Product.find(params[:id])
   end
 
   # GET /products/new
