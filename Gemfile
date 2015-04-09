@@ -45,3 +45,4 @@ end
 
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
+gem 'country_select', github: 'stefanpenner/country_select'
